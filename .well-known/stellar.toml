@@ -1,0 +1,28 @@
+# Jordan Token — Stellar Info File (SEP-0001)
+# Hosted at: https://jordantoken.pages.dev/.well-known/stellar.toml
+# The token code is set to JORDAN based on the supplied token name.
+# Confirm the actual on-ledger asset code before publishing if it differs.
+
+VERSION="2.7.0"
+NETWORK_PASSPHRASE="Public Global Stellar Network ; September 2015"
+
+[DOCUMENTATION]
+ORG_NAME="Jordan Token"
+ORG_URL="https://jordantoken.pages.dev"
+ORG_LOGO="https://jordantoken.pages.dev/assets/jordan-token-logo.png"
+ORG_DESCRIPTION="Jordan Token is a basketball-inspired digital asset issued on the Stellar network. The project identity celebrates the energy of basketball and publishes token information for public reference."
+
+[[CURRENCIES]]
+code="JORDAN"
+issuer="GBZUDFR6JYPCOLOH5IXHFJRDSDFBPDON7PMBROM4L6ZYPVXNDSMWSXLM"
+name="Jordan Token"
+desc="A basketball-inspired digital asset issued on the Stellar network. Its visual identity is inspired by the game, the court and the spirit of community."
+image="https://jordantoken.pages.dev/assets/jordan-token-logo.png"
+display_decimals=7
+
+# SEP-0001 also asks issuers to publish exactly one issuance policy:
+# fixed_number = <confirmed fixed supply>
+# max_number = <confirmed maximum supply>
+# is_unlimited = true
+# Add only the one that accurately describes the asset's real issuance policy.
+# It is intentionally not guessed here because the supply policy was not provided.
